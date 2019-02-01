@@ -30,7 +30,10 @@ Header.propTypes = {
   branding: PropTypes.string.isRequired
 };
 
-
+const headingStyle = {
+  color: "red",
+  fontSize: "50px"
+};
 
 export default Header;
 // code above : destructuring
